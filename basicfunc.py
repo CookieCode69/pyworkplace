@@ -1,7 +1,4 @@
-userText = input()
+def basicfunc():
+	print("# NOTE: ")
 
-def print_twice(userText):
-    print(userText)
-    print(userText)
-
-print_twice(userText)
+basicfunc()
