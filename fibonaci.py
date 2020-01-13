@@ -3,6 +3,14 @@ X = 1
 Y = 0
 INDEX = 0
 
+def return_value_fibonaci(X,Y,num):
+    if X == num:
+        return X
+    elif X > num:
+        return Y
+    else:
+        fibonaci(num)
+
 
 def fibonaci(num):
     global X
@@ -18,11 +26,8 @@ def fibonaci(num):
         INDEX = X
         X = X + Y
         Y = INDEX
-        if X == num:
-            return X
-        elif X > num:
-            return Y
-        else:
-            fibonaci(num)
+
+    return_value_fibonaci(X,Y,num)
+
 
 fibonaci(INPUT_NUM)
