@@ -1,0 +1,3 @@
+14/1/2020
+Tên bug:False-all-condition
+Nếu các argruments của function ko thỏa được các condition trong lệnh if (False hết) bên trong function thì function sẽ return None
